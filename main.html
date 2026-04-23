@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>強化數據彙整 | SEER TW INDEX</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <div class="tech-grid"></div>
+    <div class="scanline"></div>
+
+    <section class="hero-banner">
+        <div class="banner-content">
+            <h1>賽爾號台服復更精靈強化整理</h1>
+            <p>英勇童年，智慧賽爾，志宇蘇摩</p>
+        </div>
+        <div class="search-bar-container">
+            <input type="text" id="search-input" placeholder="SEARCH / 搜尋目標精靈，支援暱稱與編號搜尋">
+        </div>
+    </section>
+
+    <main class="app-main">
+        <nav class="nav-tabs" id="category-tabs"></nav>
+        
+        <div id="content-root"></div>
+    </main>
+
+    <div id="spirit-modal" class="modal">
+        <div class="modal-window">
+            <div class="window-header">
+                <span id="modal-title-text">精靈檔案 / PET PROFILE</span>
+                <button class="close-btn">&times;</button>
+            </div>
+            <div id="modal-body" class="window-body"></div>
+        </div>
+    </div>
+
+</body>
+</html>

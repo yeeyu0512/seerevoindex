@@ -1,0 +1,932 @@
+{
+    "oracle": [
+        {
+            "id": "3156",
+            "name": "路希菲爾德",
+            "nickname": "路希",
+            "status": "已常駐",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/路希菲尔德' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "acquisition": "<span class='highlight'>原挑戰關卡已下架</span><br>改為在功勳商店兌換因子"
+        },
+        {
+            "id": "3171",
+            "name": "銀月狼王",
+            "nickname": "狼王",
+            "status": "已常駐",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/银月狼王' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "acquisition": "<span class='highlight'>原挑戰關卡已下架</span><br>改為在量子迴廊兌換因子"
+        },
+        {
+            "id": "3388",
+            "name": "昔蘭尼加",
+            "nickname": "西蘭花",
+            "status": "已常駐",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/昔兰尼加' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "acquisition": "傳統挑戰關卡"
+        },
+        {
+            "id": "3407",
+            "name": "格勞恩斯",
+            "nickname": "火電",
+            "status": "下期預告",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/格劳恩斯' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "deadline": "2026-05-29 12:00:00",
+            "acquisition": "傳統挑戰關卡"
+        },
+        {
+            "id": "3506",
+            "name": "驚濤海皇．波塞冬",
+            "nickname": "海皇",
+            "status": "已常駐",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/惊涛海皇·波塞冬' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "acquisition": "<span class='highlight'>付費精靈</span><br>精靈招募SS級可抽或是使用80星河長明兌換"
+        },
+        {
+            "id": "3507",
+            "name": "冥王．蒼月影",
+            "nickname": "蒼月、林哥、好女孩",
+            "status": "已常駐",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/冥王·苍月影' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "acquisition": "傳統挑戰關卡"
+        },
+        {
+            "id": "3514",
+            "name": "弒神獵皇",
+            "nickname": "獵皇",
+            "status": "已常駐",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/弑神猎皇' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "acquisition": "傳統挑戰關卡"
+        },
+        {
+            "id": "3516",
+            "name": "混沌地王萊茵哈特",
+            "nickname": "混地",
+            "status": "已結束 尚未常駐",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/混沌地王莱因哈特' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "acquisition": "傳統挑戰關卡"
+        },
+        {
+            "id": "3524",
+            "name": "喬列尼德",
+            "nickname": "古龍",
+            "status": "已結束 尚未常駐",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/乔列尼德 target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "acquisition": "傳統挑戰關卡<br><span style='color:var(--purple)'><b>關卡已追加點燈保底，但仍舊費時</b></span>"
+        },
+        {
+            "id": "3613",
+            "name": "芳馨．茉蕊兒",
+            "nickname": "草王、草狗",
+            "status": "已常駐",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/芳馨·茉蕊儿' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "acquisition": "傳統挑戰關卡<br><span style='color:var(--purple)'><b>關卡已追加點燈保底</b></span>"
+        },
+        {
+            "id": "3623",
+            "name": "鬼面幽蝶",
+            "nickname": "鬼蝶",
+            "status": "已常駐",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/鬼面幽蝶' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "acquisition": "<span class='highlight'>原挑戰關卡已下架</span><br>改為在量子迴廊兌換因子"
+        },
+        {
+            "id": "3670",
+            "name": "聖耀之光．黃金天馬",
+            "nickname": "天馬、旭馬",
+            "status": "已常駐",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/圣耀之光·黄金天马' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "acquisition": "傳統挑戰關卡"
+        },
+        {
+            "id": "3704",
+            "name": "狂熱之誠．吉羅德",
+            "nickname": "吉羅德、旭羅德",
+            "status": "已常駐",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/狂热之诚·吉罗德' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "acquisition": "<span class='highlight'>原挑戰關卡已下架</span><br>改為在量子迴廊兌換因子"
+        },
+        {
+            "id": "3705",
+            "name": "守護者．艾里克",
+            "nickname": "艾里克",
+            "status": "已常駐",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/守护者·艾里克' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "acquisition": "<span class='highlight'>原挑戰關卡已下架</span><br>改為使用700覺醒道具兌換本體"
+        },
+        {
+            "id": "3711",
+            "name": "聖光莫妮卡",
+            "nickname": "聖莫",
+            "status": "進行中",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/圣光莫妮卡' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "deadline": "2026-04-30 09:59:00",
+            "acquisition": "傳統挑戰關卡"
+        },
+        {
+            "id": "3716",
+            "name": "該洛西斯",
+            "nickname": "該隱",
+            "status": "已常駐",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/该洛西斯' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "acquisition": "<span class='highlight'>原挑戰關卡已下架</span><br>改為在SPT挑戰兌換因子"
+        },
+        {
+            "id": "3724",
+            "name": "混沌．哈肯薩",
+            "nickname": "黑龍、旭肯薩",
+            "status": "已常駐",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/混沌·哈肯萨' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "acquisition": "<span class='highlight'>原挑戰關卡已下架</span><br>改為在SPT挑戰兌換因子"
+        },
+        {
+            "id": "3729",
+            "name": "浩瀚崑崙",
+            "nickname": "熊貓",
+            "status": "已常駐",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/浩瀚昆仑' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "acquisition": "<span class='highlight'>付費精靈</span><br>精靈招募S級可抽"
+        },
+        {
+            "id": "3740",
+            "name": "怒濤．滄嵐",
+            "nickname": "水王、藍色哈基米",
+            "status": "已常駐",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/怒涛·沧岚' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "acquisition": "傳統挑戰關卡"
+        },
+        {
+            "id": "3766",
+            "name": "黑翼天馬．克薩雷恩",
+            "nickname": "黑天馬",
+            "status": "已常駐",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/黑翼天马·克萨雷恩' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "acquisition": "<span class='highlight'>原挑戰關卡已下架</span><br>改為使用700覺醒道具兌換本體"
+        },
+        {
+            "id": "3886",
+            "name": "冰魄．柯爾德",
+            "nickname": "冰王、冰哥",
+            "status": "已結束 尚未常駐",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/冰魄·柯尔德' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "acquisition": "傳統挑戰關卡"
+        },
+        {
+            "id": "3941",
+            "name": "混沌暗王霍德爾",
+            "nickname": "混暗",
+            "status": "已常駐",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/混沌暗王霍德尔' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "acquisition": "傳統挑戰關卡<br><span style='color:#ff6600'><b>關卡陰間耗時 建議提早準備</b></span>"
+        },
+        {
+            "id": "3954",
+            "name": "楓眠",
+            "nickname": "旭眠",
+            "status": "已常駐",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/枫眠' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "acquisition": "<span class='highlight'>原為巔峰姬限時取得</span><br>改為在功勳商店兌換因子或不定期付費回歸<span class='highlight'><b>（不要買）</b></span>"
+        },
+        {
+            "id": "4125",
+            "name": "洪荒．列奧尼達",
+            "nickname": "古王、古古的王",
+            "status": "已結束 尚未常駐",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/洪荒·列奥尼达' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "acquisition": "傳統挑戰關卡<br><span style='color:#ff6600'><b>關卡耗時 建議提早準備</b></span>"
+        },
+        {
+            "id": "4186",
+            "name": "鎮世．喬特魯德",
+            "nickname": "白龍、白龍媽",
+            "status": "已結束 尚未常駐",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/镇世·乔特鲁德' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "acquisition": "傳統挑戰關卡<br><span style='color:#ff6600'><b>關卡陰間耗時 建議提早準備</b></span>"
+        }
+    ],
+    "bond": [
+        {
+            "groupName": "傲劍驕瑰",
+            "badge": "需要 8 個契約徽章",
+            "spirits": [
+                {
+                    "id": "4184",
+                    "name": "貝狄薇爾",
+                    "nickname": "貝貝",
+                    "acquisition": "<span class='highlight'>付費精靈</span><br>精靈招募SS級可抽",
+                    "newSkill": "無",
+                    "notes": "微光秘境有新技能"
+                },
+                {
+                    "id": "3631",
+                    "name": "躍遷狂劍．蘭斯洛特",
+                    "nickname": "劍聖",
+                    "acquisition": "<span class='highlight'>付費精靈</span><br>精靈招募SS級可抽",
+                    "newSkill": "無",
+                    "notes": "微光秘境有新技能"
+                }
+            ]
+        },
+        {
+            "groupName": "並蒂雙蓮",
+            "badge": "需要 5 個契約徽章",
+            "spirits": [
+                {
+                    "id": "4069",
+                    "name": "縹緲幽芙",
+                    "nickname": "黑蓮花",
+                    "acquisition": "<span class='highlight'>付費精靈</span><br>精靈招募SS級可抽<br>慶典精靈常駐購買",
+                    "newSkill": "無",
+                    "notes": "無"
+                },
+                {
+                    "id": "3888",
+                    "name": "凌波清芙",
+                    "nickname": "白蓮花",
+                    "acquisition": "<span class='highlight'>付費精靈</span><br>精靈招募SS級可抽<br>慶典精靈常駐購買",
+                    "newSkill": "無",
+                    "notes": "無"
+                }
+            ]
+        },
+        {
+            "groupName": "曹家雙絕",
+            "badge": "需要 4 個契約徽章",
+            "spirits": [
+                {
+                    "id": "3594",
+                    "name": "典韋",
+                    "nickname": "",
+                    "acquisition": "<span class='highlight'>付費精靈</span><br>精靈招募S級可抽",
+                    "newSkill": "無",
+                    "notes": "<span style='color:#333399'><b>強力PVE取向</b></span><br>羈絆後與魔鈺、月照同定位"
+                },
+                {
+                    "id": "3950",
+                    "name": "奇佐郭嘉",
+                    "nickname": "",
+                    "acquisition": "<span class='highlight'>付費精靈</span><br>精靈招募S級可抽",
+                    "newSkill": "無",
+                    "notes": "無"
+                }
+            ]
+        },
+        {
+            "groupName": "奉身鑄魂",
+            "badge": "需要 6 個契約徽章",
+            "spirits": [
+                {
+                    "id": "3847",
+                    "name": "魂帝．天循道",
+                    "nickname": "",
+                    "acquisition": "挑戰關卡",
+                    "newSkill": "無",
+                    "notes": "通行證商店有新技能"
+                },
+                {
+                    "id": "3833",
+                    "name": "魂王．暗翼影",
+                    "nickname": "",
+                    "acquisition": "挑戰關卡",
+                    "newSkill": "無",
+                    "notes": "無"
+                },
+                {
+                    "id": "3830",
+                    "name": "魂王．無燼夢",
+                    "nickname": "",
+                    "acquisition": "挑戰關卡",
+                    "newSkill": "無",
+                    "notes": "微光秘境有新技能"
+                }
+            ]
+        },
+        {
+            "groupName": "四靈歸位",
+            "badge": "需要 4 個契約徽章",
+            "spirits": [
+                {
+                    "id": "3803",
+                    "name": "天石靈皇．阿洛比斯",
+                    "nickname": "",
+                    "acquisition": "<span class='highlight'>原挑戰關卡已下架</span><br>功勳商店兌換因子",
+                    "newSkill": "無",
+                    "notes": "無"
+                },
+                {
+                    "id": "3804",
+                    "name": "念力靈尊．帕洛狄亞",
+                    "nickname": "",
+                    "acquisition": "<span class='highlight'>原挑戰關卡已下架</span><br>功勳商店兌換因子",
+                    "newSkill": "無",
+                    "notes": "無"
+                },
+                {
+                    "id": "3778",
+                    "name": "冰幽仙子．尤米娜",
+                    "nickname": "",
+                    "acquisition": "<span class='highlight'>原挑戰關卡已下架</span><br>功勳商店兌換因子",
+                    "newSkill": "無",
+                    "notes": "無"
+                },
+                {
+                    "id": "3777",
+                    "name": "暗裔戰狂．尤尼卡",
+                    "nickname": "",
+                    "acquisition": "<span class='highlight'>原挑戰關卡已下架</span><br>功勳商店兌換因子",
+                    "newSkill": "無",
+                    "notes": "無"
+                }
+            ]
+        },
+        {
+            "groupName": "死神契約",
+            "badge": "需要 6 個契約徽章",
+            "spirits": [
+                {
+                    "id": "4163",
+                    "name": "逆魂．佩特菲德",
+                    "nickname": "團長",
+                    "acquisition": "挑戰關卡<br><span class='highlight'><b>關卡非常陰間耗時</b></span>",
+                    "newSkill": "無",
+                    "notes": "<del>志宇噬亡魂</del>"
+                },
+                {
+                    "id": "4290",
+                    "name": "靈魂收割者．黛",
+                    "nickname": "",
+                    "acquisition": "挑戰關卡",
+                    "newSkill": "無",
+                    "notes": "無"
+                }
+            ]
+        },
+        {
+            "groupName": "光之女神",
+            "badge": "需要 4 個契約徽章",
+            "spirits": [
+                {
+                    "id": "4216",
+                    "name": "拉克希斯",
+                    "nickname": "",
+                    "acquisition": "<span class='highlight'>原挑戰關卡已下架</span><br>量子迴廊兌換因子",
+                    "newSkill": "無",
+                    "notes": "無"
+                },
+                {
+                    "id": "4278",
+                    "name": "阿特洛波斯",
+                    "nickname": "",
+                    "acquisition": "<span class='highlight'>原挑戰關卡已下架</span><br>量子迴廊兌換因子",
+                    "newSkill": "無",
+                    "notes": "無"
+                },
+                {
+                    "id": "4231",
+                    "name": "克洛托",
+                    "nickname": "",
+                    "acquisition": "<span class='highlight'>原挑戰關卡已下架</span><br>量子迴廊兌換因子",
+                    "newSkill": "無",
+                    "notes": "無"
+                }
+            ]
+        },
+        {
+            "groupName": "源初之夜",
+            "badge": "需要 8 個契約徽章",
+            "spirits": [
+                {
+                    "id": "4329",
+                    "name": "倪克斯",
+                    "nickname": "小倪、貴族精靈",
+                    "acquisition": "<span class='highlight'>付費精靈</span><br><span class='highlight'><b>目前沒有常駐入手手段</b></span><br>週年慶屬於SS級",
+                    "newSkill": "<span style='color:#4ade80'><b>有</b></span>",
+                    "notes": "<span class='highlight'><b>台服尚未推出</b></span>"
+                },
+                {
+                    "id": "3491",
+                    "name": "夢天睡神．修普諾斯",
+                    "nickname": "睡神",
+                    "acquisition": "<span class='highlight'>付費精靈</span><br>精靈招募S級可抽",
+                    "newSkill": "無",
+                    "notes": "通行證商店有新技能"
+                }
+            ]
+        },
+        {
+            "groupName": "暗之女神",
+            "badge": "需要 4 個契約徽章",
+            "spirits": [
+                {
+                    "id": "4270",
+                    "name": "提西弗涅",
+                    "nickname": "",
+                    "acquisition": "挑戰關卡",
+                    "newSkill": "無",
+                    "notes": "無"
+                },
+                {
+                    "id": "4246",
+                    "name": "墨紀拉",
+                    "nickname": "",
+                    "acquisition": "<span class='highlight'>原挑戰關卡已下架</span><br>功勳商店兌換因子",
+                    "newSkill": "無",
+                    "notes": "無"
+                },
+                {
+                    "id": "4200",
+                    "name": "阿萊克托",
+                    "nickname": "",
+                    "acquisition": "挑戰關卡",
+                    "newSkill": "無",
+                    "notes": "無"
+                }
+            ]
+        },
+        {
+            "groupName": "斷罪之刻",
+            "badge": "需要 5 個契約徽章",
+            "spirits": [
+                {
+                    "id": "4173",
+                    "name": "虹雨．茜爾",
+                    "nickname": "",
+                    "acquisition": "挑戰",
+                    "newSkill": "無",
+                    "notes": "微光秘境有新技能"
+                },
+                {
+                    "id": "4347",
+                    "name": "裁罪魔剪．塞澤絲",
+                    "nickname": "剪刀妹",
+                    "acquisition": "挑戰關卡",
+                    "newSkill": "無",
+                    "notes": "<span class='highlight'><b>台服尚未推出進化</b></span><br>微光秘境有新技能"
+                },
+                {
+                    "id": "4135",
+                    "name": "癒靈．克麗婭",
+                    "nickname": "癒靈",
+                    "acquisition": "挑戰關卡",
+                    "newSkill": "無",
+                    "notes": "微光秘境有新技能"
+                }
+            ]
+        },
+        {
+            "groupName": "山衹之息",
+            "badge": "需要 6 個契約徽章",
+            "spirits": [
+                {
+                    "id": "3763",
+                    "name": "烏瑞婭",
+                    "nickname": "烏龜妹",
+                    "acquisition": "<span class='highlight'>付費精靈</span><br>精靈招募SS級可抽",
+                    "newSkill": "<span style='color:#4ade80'><b>有</b></span>",
+                    "notes": "微光秘境有新技能"
+                },
+                {
+                    "id": "4486",
+                    "name": "秘爾威緹",
+                    "nickname": "",
+                    "acquisition": "<span class='highlight'>付費精靈</span><br>精靈招募S級可抽",
+                    "newSkill": "無",
+                    "notes": "<span class='highlight'><b>台服尚未推出</b></span>"
+                }
+            ]
+        },
+        {
+            "groupName": "混沌之瞳",
+            "badge": "需要 9 個契約徽章",
+            "spirits": [
+                {
+                    "id": "3668",
+                    "name": "混沌伊洛維奇",
+                    "nickname": "",
+                    "acquisition": "挑戰",
+                    "newSkill": "無",
+                    "notes": "無"
+                },
+                {
+                    "id": "3797",
+                    "name": "混沌魔眼耶里梅斯",
+                    "nickname": "",
+                    "acquisition": "挑戰",
+                    "newSkill": "無",
+                    "notes": "功勳商店有補償新技能"
+                },
+                {
+                    "id": "3667",
+                    "name": "混沌天蛇太祖",
+                    "nickname": "",
+                    "acquisition": "挑戰",
+                    "newSkill": "無",
+                    "notes": "參與活動可獲得新技能"
+                }
+            ]
+        },
+        {
+            "groupName": "千機再構",
+            "badge": "需要 6 個契約徽章",
+            "spirits": [
+                {
+                    "id": "3896",
+                    "name": "伽瑪星魂",
+                    "nickname": "伽瑪、伽星魂",
+                    "acquisition": "<span class='highlight'>原挑戰關卡已下架</span><br><span class='highlight'><b>目前沒有穩定入手手段</b></span><br>精靈招募S級可抽",
+                    "newSkill": "無",
+                    "notes": "通行證商店有新技能"
+                },
+                {
+                    "id": "3893",
+                    "name": "伽瑪．夜煞",
+                    "nickname": "",
+                    "acquisition": "<span class='highlight'>原挑戰關卡已下架</span><br>功勳商店兌換因子",
+                    "newSkill": "無",
+                    "notes": "無"
+                },
+                {
+                    "id": "3887",
+                    "name": "伽瑪．鬼雀",
+                    "nickname": "",
+                    "acquisition": "<span class='highlight'>原挑戰關卡已下架</span><br>功勳商店兌換因子",
+                    "newSkill": "無",
+                    "notes": "無"
+                },
+                {
+                    "id": "3876",
+                    "name": "伽瑪．悍刀",
+                    "nickname": "",
+                    "acquisition": "<span class='highlight'>原挑戰關卡已下架</span><br>功勳商店兌換因子",
+                    "newSkill": "無",
+                    "notes": "無"
+                }
+            ]
+        },
+        {
+            "groupName": "沐焰蓮華",
+            "badge": "需要 6 個契約徽章",
+            "spirits": [
+                {
+                    "id": "4219",
+                    "name": "紅蓮之誓．安卡",
+                    "nickname": "安卡",
+                    "acquisition": "挑戰關卡",
+                    "newSkill": "<span style='color:#4ade80'><b>有</b></span>",
+                    "notes": "通行證商店有新技能"
+                },
+                {
+                    "id": "4407",
+                    "name": "赤紅仙鳳",
+                    "nickname": "",
+                    "acquisition": "挑戰關卡",
+                    "newSkill": "無",
+                    "notes": "<span class='highlight'><b>台服尚未推出</b></span>"
+                }
+            ]
+        },
+        {
+            "groupName": "挽塵之遺",
+            "badge": "需要 6 個契約徽章",
+            "spirits": [
+                {
+                    "id": "3983",
+                    "name": "靈．辰坤星魂",
+                    "nickname": "坤坤",
+                    "acquisition": "<span class='highlight'>原挑戰關卡已下架</span><br><span class='highlight'><b>目前沒有穩定入手手段</b></span><br>精靈招募S級可抽",
+                    "newSkill": "<span style='color:#4ade80'><b>有</b></span>",
+                    "notes": "微光秘境有新技能"
+                },
+                {
+                    "id": "3915",
+                    "name": "辰坤．蒼焱",
+                    "nickname": "",
+                    "acquisition": "<span class='highlight'>原挑戰關卡已下架</span><br>SPT挑戰兌換因子",
+                    "newSkill": "無",
+                    "notes": "無"
+                }
+            ]
+        }
+    ],
+    "evolution": [
+        {
+            "id": "4347",
+            "name": "裁罪魔剪．塞澤絲",
+            "nickname": "剪刀妹",
+            "evolution": {
+                "fromId": "4109",
+                "fromName": "魔剪．塞澤絲",
+                "typeText": "超進化"
+            },
+            "front": "需要前置，但不消耗前置",
+            "acquisition": "因子關卡"
+        },
+        {
+            "id": "4395",
+            "name": "海棠教皇．未明",
+            "nickname": "未明",
+            "evolution": {
+                "fromId": "4285",
+                "fromName": "未明",
+                "typeText": "超進化"
+            },
+            "front": "需要前置，但不消耗前置",
+            "acquisition": "因子關卡"
+        },
+        {
+            "id": "4333",
+            "name": "哀．拉伯克",
+            "nickname": "哀隊、拉伯克",
+            "evolution": {
+                "fromId": "4289",
+                "fromName": "異維．拉伯克",
+                "typeText": "完全體"
+            },
+            "front": "需要前置，消耗前置",
+            "acquisition": "傳統關卡，<b>非常耗時</b>"
+        },
+        {
+            "id": "4327",
+            "name": "極戰．阿爾斯蘭",
+            "nickname": "戰王",
+            "evolution": {
+                "fromId": "3223",
+                "fromName": "阿爾斯蘭",
+                "typeText": "自我突破"
+            },
+            "front": "需要前置，但不消耗前置",
+            "acquisition": "因子關卡"
+        },
+        {
+            "id": "4676",
+            "name": "神覺．米斯蒂克",
+            "nickname": "秘王、米哥",
+            "evolution": {
+                "fromId": "3082",
+                "fromName": "米斯蒂克",
+                "typeText": "全新姿態"
+            },
+            "front": "需要前置，消耗前置",
+            "acquisition": "傳統關卡，<b>非常耗時</b>"
+        },
+        {
+            "id": "4401",
+            "name": "破世之拳．特羅斯",
+            "nickname": "特羅斯",
+            "evolution": {
+                "fromId": "4310",
+                "fromName": "特羅斯",
+                "typeText": "洗禮"
+            },
+            "front": "需要前置，但不消耗前置",
+            "acquisition": "因子關卡"
+        },
+        {
+            "id": "4376",
+            "name": "聖諭之風．嵐",
+            "nickname": "嵐小子",
+            "evolution": {
+                "fromId": "4113",
+                "fromName": "風之子．嵐",
+                "typeText": "完全體"
+            },
+            "front": "需要前置，但不消耗前置",
+            "acquisition": "因子關卡"
+        },
+        {
+            "id": "4492",
+            "name": "斯達萊斯",
+            "nickname": "魔術師",
+            "evolution": {
+                "fromId": "4254",
+                "fromName": "斯達伏爾",
+                "typeText": "新的軀殼"
+            },
+            "front": "需要前置，但不消耗前置",
+            "acquisition": "因子關卡"
+        },
+        {
+            "id": "4494",
+            "name": "嫉妒．哲利斯",
+            "nickname": "嫉妒",
+            "evolution": {
+                "fromId": "2946",
+                "fromName": "哲利斯",
+                "typeText": "進化"
+            },
+            "front": "需要前置，但不消耗前置",
+            "acquisition": "因子關卡"
+        },
+        {
+            "id": "4642",
+            "name": "逆世之瞳．哀目黑子",
+            "nickname": "黑子",
+            "evolution": {
+                "fromId": "4023",
+                "fromName": "哀目黑子",
+                "typeText": "繼承力量"
+            },
+            "front": "需要前置，但不消耗前置",
+            "acquisition": "因子關卡"
+        },
+        {
+            "id": "4472",
+            "name": "夜羅．琉彩",
+            "nickname": "琉彩",
+            "evolution": {
+                "fromId": "4291",
+                "fromName": "琉彩",
+                "typeText": "混沌侵染"
+            },
+            "front": "需要前置，但不消耗前置",
+            "acquisition": "因子關卡"
+        }
+    ],
+    "newform": [
+        {
+            "id": "4725",
+            "name": "花燈仙子",
+            "evolution": {
+                "fromId": "3323",
+                "fromName": "花燈娃娃",
+                "typeText": "全新力量"
+            },
+            "acquisition": "因子關卡"
+        },
+        {
+            "id": "4344",
+            "nickname": "火潘",
+            "name": "潘克多斯",
+            "evolution": {
+                "fromId": "2023",
+                "fromName": "潘多斯",
+                "typeText": "超進化"
+            },
+            "acquisition": "<span class='highlight'><b>目前沒有常駐入手手段</b>"
+        },
+        {
+            "id": "4372",
+            "name": "幻魅靈狐．蘇離",
+            "nickname": "蘇離",
+            "evolution": {
+                "fromId": "3508",
+                "fromName": "蘇離",
+                "typeText": "進化"
+            },
+            "pay": "可以消耗前置優惠進化",
+            "acquisition": "<span class='highlight'>付費精靈，目前沒有常駐入手手段</span>"
+        },
+        {
+            "id": "4554",
+            "name": "聖諭邪魘",
+            "nickname": "斜眼、魘弟",
+            "evolution": {
+                "fromId": "4035",
+                "fromName": "邪影夢魘",
+                "typeText": "追尋的終點"
+            },
+            "pay": "可以消耗前置優惠進化",
+            "acquisition": "<span class='highlight'>付費精靈，目前沒有常駐入手手段</span>"
+        },
+        {
+            "id": "4677",
+            "name": "星辰萬象．天啟星魂",
+            "nickname": "星魂、輪盤悍婦",
+            "evolution": {
+                "fromId": "3661",
+                "fromName": "天啟星魂",
+                "typeText": "進化"
+            },
+            "pay": "可以消耗前置優惠進化",
+            "acquisition": "<span class='highlight'>付費精靈，目前沒有常駐入手手段</span>"
+        },
+        {
+            "id": "4800",
+            "name": "無極聖武",
+            "nickname": "聖武、聖拳",
+            "evolution": {
+                "fromId": "3197",
+                "fromName": "永恆聖拳",
+                "typeText": "義無反顧"
+            },
+            "pay": "可以消耗前置優惠進化",
+            "acquisition": "<span class='highlight'>付費精靈，目前沒有常駐入手手段</span>"
+        },
+        {
+            "id": "4463",
+            "name": "斯克魯恩",
+            "nickname": "冰潘",
+            "evolution": {
+                "fromId": "1354",
+                "fromName": "斯克魯",
+                "typeText": "超進化"
+            },
+            "acquisition": "<span class='highlight'><b>目前沒有常駐入手手段</b>"
+        },
+        {
+            "id": "4606",
+            "name": "加爾魯特",
+            "nickname": "草潘",
+            "evolution": {
+                "fromId": "2151",
+                "fromName": "加爾魯什",
+                "typeText": "超進化"
+            },
+            "acquisition": "<span class='highlight'><b>目前沒有常駐入手手段</b>"
+        },
+        {
+            "id": "4808",
+            "name": "諱跡．米修莉",
+            "nickname": "紫色哈基米、賤貓、耄耋",
+            "evolution": {
+                "fromId": "3700",
+                "fromName": "米修莉",
+                "typeText": "幽靈貓頭目"
+            },
+            "pay": "可以消耗前置優惠進化",
+            "acquisition": "<span class='highlight'>付費精靈，目前沒有常駐入手手段</span>"
+        },
+        {
+            "id": "4865",
+            "name": "超維．瑞澤",
+            "nickname": "chovy",
+            "evolution": {
+                "fromId": "3387",
+                "fromName": "瑞澤",
+                "typeText": "超進化"
+            },
+            "pay": "可以消耗前置優惠進化",
+            "acquisition": "<span class='highlight'>付費精靈，目前沒有常駐入手手段</span>"
+        },
+        {
+            "id": "4888",
+            "name": "慈輝永頌．瑞亞",
+            "nickname": "瑞亞、神母",
+            "evolution": {
+                "fromId": "2830",
+                "fromName": "瑞斯麗婭",
+                "typeText": "現身"
+            },
+            "pay": "可以消耗前置優惠進化",
+            "acquisition": "<span class='highlight'>付費精靈，目前沒有常駐入手手段</span>"
+        },
+        {
+            "id": "4875",
+            "name": "永燼劫炎．上古炎獸",
+            "nickname": "炎魔、炎獸",
+            "evolution": {
+                "fromId": "3302",
+                "fromName": "炎魔之王",
+                "typeText": "重拾本源"
+            },
+            "pay": "可以消耗前置優惠進化",
+            "acquisition": "<span class='highlight'>付費精靈，目前沒有常駐入手手段</span>"
+        },
+        {
+            "id": "4750",
+            "name": "雲境歸真．始祖靈獸",
+            "nickname": "草馬",
+            "evolution": {
+                "fromId": "3326",
+                "fromName": "繁盛靈獸王",
+                "typeText": "反璞歸真"
+            },
+            "pay": "可以消耗前置優惠進化",
+            "acquisition": "<span class='highlight'>付費精靈，目前沒有常駐入手手段</span>"
+        },
+        {
+            "id": "4697",
+            "name": "華光之翼．杰洛恩",
+            "nickname": "光天使、光蒼蠅",
+            "evolution": {
+                "fromId": "3898",
+                "fromName": "光天使．杰洛恩",
+                "typeText": "淬鍊雙翼"
+            },
+            "pay": "可以消耗前置優惠進化",
+            "acquisition": "<span class='highlight'>付費精靈，目前沒有常駐入手手段</span>"
+        },
+        {
+            "id": "4355",
+            "name": "終末大天使",
+            "nickname": "大狗屎",
+            "evolution": {
+                "fromId": "3714",
+                "fromName": "混沌天使長",
+                "typeText": "融合至極"
+            },
+            "pay": "可以消耗前置優惠進化",
+            "acquisition": "<span class='highlight'>付費精靈，目前沒有常駐入手手段</span>"
+        },
+        {
+            "id": "4693",
+            "name": "星光．蘑菇怪",
+            "nickname": "好真菌、蘑菇塊",
+            "evolution": {
+                "fromId": "47",
+                "fromName": "蘑菇怪",
+                "typeText": "星光化"
+            },
+            "acquisition": "因子關卡"
+        }
+    ]
+}
