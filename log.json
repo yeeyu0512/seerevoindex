@@ -927,6 +927,39 @@
                 "typeText": "星光化"
             },
             "acquisition": "因子關卡"
+        },
+        {
+            "id": "4647",
+            "name": "星光．麗莎布布",
+            "nickname": "布布、麗莎",
+            "evolution": {
+                "fromId": "303",
+                "fromName": "麗莎布布",
+                "typeText": "星光化"
+            },
+            "acquisition": "星光三主寵活動或新手/回歸活動"
+        },
+        {
+            "id": "4648",
+            "name": "星光．魯斯王",
+            "nickname": "魯斯王、千里擊濤、克",
+            "evolution": {
+                "fromId": "306",
+                "fromName": "魯斯王",
+                "typeText": "星光化"
+            },
+            "acquisition": "星光三主寵活動或新手/回歸活動"
+        },
+        {
+            "id": "4649",
+            "name": "星光．魔焰猩猩",
+            "nickname": "猩猩、星",
+            "evolution": {
+                "fromId": "309",
+                "fromName": "魔焰猩猩",
+                "typeText": "星光化"
+            },
+            "acquisition": "星光三主寵活動或新手/回歸活動"
         }
     ]
 }
