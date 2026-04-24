@@ -146,7 +146,7 @@ function renderHome() {
             <div style="margin-bottom:15px;"><span style="color:var(--cyan); font-weight:bold;">[契約夥伴]</span><br>特定的精靈組合強化。</div>
             <div style="margin-bottom:15px;"><span style="color:var(--cyan); font-weight:bold;">[全新進化]</span><br>精靈型態轉換，通常消耗前置型態。</div>
             <div style="margin-bottom:15px;"><span style="color:var(--cyan); font-weight:bold;">[全新型態]</span><br>精靈之全新表現方式，許多可以不消耗前置。</div>
-            <div style="margin-bottom:15px;"><span style="color:var(--red); font-weight:bold;">[絕版下架]</span><br>歷年來已關閉挑戰關卡，目前無法穩定獲取的精靈名單。</div>
+            <div style="margin-bottom:15px;"><span style="color:var(--red); font-weight:bold;">[絕版下架]</span><br>龍龍旭旭一起做妖把關卡下架啦。</div>
         </div>
     </div>`;
 }
