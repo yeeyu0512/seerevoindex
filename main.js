@@ -10,7 +10,7 @@ const searchEl = document.getElementById('search-input');
 const modal = document.getElementById('spirit-modal');
 const modalBody = document.getElementById('modal-body');
 
-// 🚩 更新：加入 UNAVAILABLE 頁籤
+// 更新：加入 UNAVAILABLE 頁籤
 const categories = [
     { id: "home", name: "HOME // 主頁", layout: "home" },
     { id: "oracle", name: "ORACLE // 神諭覺醒", layout: "list" },
@@ -37,7 +37,6 @@ function getBadgeHtml(status) {
     let cls = "b-permanent";
     if (status === "進行中") cls = "b-ongoing";
     if (status === "下期預告") cls = "b-upcoming";
-    // 🚩 只要包含「已結束」或「下架」，就會自動套用紅色閃爍標籤
     if (status.includes("已結束") || status.includes("下架")) cls = "b-ended";
     return `<span class="badge ${cls}">${status}</span>`;
 }
@@ -58,7 +57,7 @@ function getAutoTags(s) {
         } else if (s.acquisition.includes('下架') || s.acquisition.includes('改為')) {
             if (s.acquisition.includes('沒有穩定入手手段')) {
                 tags += '<span class="badge b-ended">獲取方式異動且不穩定</span>';
-            } else if(s.status.includes('下架')){
+            } else if(s.status && s.status.includes('下架')){ // 🚩 修正：先確認 s.status 存在才執行 .includes
                 tags += '<span class="badge b-ended">原關卡已下架</span>';
             } else {
                 tags += '<span class="badge b-changed b-flash-info">獲取方式異動</span>';
@@ -116,7 +115,6 @@ function openModal(s, type) {
     } else if (type === 'newform') {
         contentHtml += renderDataBox("FORM_DATA / 型態資訊", s.pay || '全新型態，不需要前置');
     } else if (type === 'removed') {
-        // 🚩 下架精靈專屬標籤
         contentHtml += renderDataBox("REMOVED_DATA / 下架資訊", s.status || '挑戰關卡已關閉，目前無法穩定獲取',true);
     }
 
@@ -151,7 +149,6 @@ function renderHome() {
     </div>`;
 }
 
-// 🚩 下架精靈專屬渲染函數：會根據日期自動分區
 function renderRemovedList(spirits, type) {
     activeTimers.forEach(t => clearInterval(t));
     activeTimers = [];
@@ -164,7 +161,6 @@ function renderRemovedList(spirits, type) {
     const groups = {};
     const order = [];
     
-    // 根據狀態(日期)分組
     spirits.forEach(s => {
         const date = s.status || "早期下架";
         if (!groups[date]) {
@@ -174,7 +170,6 @@ function renderRemovedList(spirits, type) {
         groups[date].push(s);
     });
 
-    // 依序渲染各個日期區塊
     order.forEach(date => {
         createStandardSection(`ARCHIVE // ${date}`, groups[date], type);
     });
@@ -224,7 +219,6 @@ function createStandardSection(title, groupSpirits, type) {
     groupSpirits.forEach(s => {
         const card = document.createElement('div'); card.className = 'tech-card'; card.onclick = () => openModal(s, type);
 
-        // 🚩 如果是下架模式，列表上不需要顯示重複的下架標籤 (因為標題已經寫了)
         let statusBadge = getBadgeHtml(s.status);
         if ((type === 'evolution' || type === 'newform') && s.status === "已常駐") statusBadge = "";
         if (type === 'removed') statusBadge = ""; 
@@ -310,7 +304,6 @@ function update() {
         const filtered = (fullDatabase.newform || []).filter(s => s.name.includes(search) || s.id.includes(search) || (s.nickname && s.nickname.includes(search)));
         renderStandardList(filtered, 'newform');
     } else if (cat.id === "removed") {
-        // 🚩 處理 下架數據檢索
         const filtered = (fullDatabase.removed || []).filter(s => s.name.includes(search) || s.id.includes(search) || (s.nickname && s.nickname.includes(search)));
         renderRemovedList(filtered, 'removed');
     }
