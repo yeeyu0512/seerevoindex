@@ -1,7 +1,7 @@
 const IMG_PATH = "./pethead/";
 let fullDatabase = null;
 let activeTabIdx = 0;
-let activeBondIdx = 0; 
+let activeBondIdx = 0;
 let activeTimers = [];
 
 const tabsEl = document.getElementById('category-tabs');
@@ -54,7 +54,11 @@ function getAutoTags(s) {
         if (s.acquisition.includes('沒有常駐入手手段')) {
             tags += '<span class="badge b-deprecated b-flash-warn">暫時絕版</span>';
         } else if (s.acquisition.includes('下架') || s.acquisition.includes('改為')) {
-            tags += '<span class="badge b-changed b-flash-info">獲取方式異動</span>';
+            if (s.acquisition.includes('沒有穩定入手手段')) {
+                tags += '<span class="badge b-ended">獲取方式異動且不穩定</span>';
+            } else {
+                tags += '<span class="badge b-changed b-flash-info">獲取方式異動</span>';
+            }
         }
     }
     if (s.newSkill && s.newSkill.includes('有')) {
@@ -67,7 +71,7 @@ function openModal(s, type) {
     const fullImg = `${IMG_PATH}Seeravatar${s.id}.png`;
     const fallback = `data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MCIgaGVpZ2h0PSI3MCI+PHJlY3Qgd2lkdGg9IjcwIiBoZWlnaHQ9IjcwIiBmaWxsPSIjMWUxZTFlIi8+PC9zdmc+`;
     const nameCls = getNameClass(s) === 'card-name paid-name' ? 'm-profile-name paid-name' : 'm-profile-name';
-    
+
     // 🚩 型態模式也同樣隱藏已常駐標籤
     const statusBadge = ((type === 'evolution' || type === 'newform') && s.status === "已常駐") ? "" : (s.status ? getBadgeHtml(s.status) : "");
 
@@ -99,7 +103,7 @@ function openModal(s, type) {
 
     contentHtml += `<div class="m-data-grid">`;
     if (s.nickname) contentHtml += renderDataBox("NICKNAME / 暱稱", s.nickname);
-    
+
     if (type === 'oracle') {
         contentHtml += renderDataBox("WIKI / 詳細數據", s.newSkill || '請參閱圖鑑');
     } else if (type === 'bond') {
@@ -175,7 +179,7 @@ function renderStandardList(spirits, type) {
     let permHeader = "PERMANENT // 已常駐";
     if (type === 'evolution') permHeader = "EVOLUTION ARCHIVE // 進化檔案";
     if (type === 'newform') permHeader = "FORM ARCHIVE // 型態檔案";
-    
+
     createStandardSection("ENDED // 尚未常駐", groupEnded, type);
     createStandardSection(permHeader, groupPermanent, type);
 }
@@ -186,10 +190,10 @@ function createStandardSection(title, groupSpirits, type) {
     const grid = document.createElement('div'); grid.className = 'spirit-grid';
     groupSpirits.forEach(s => {
         const card = document.createElement('div'); card.className = 'tech-card'; card.onclick = () => openModal(s, type);
-        
+
         // 🚩 進化與型態模式且狀態為已常駐，不顯示標籤
         const statusBadge = ((type === 'evolution' || type === 'newform') && s.status === "已常駐") ? "" : getBadgeHtml(s.status);
-        
+
         card.innerHTML = `<img src="${IMG_PATH}Seeravatar${s.id}.png" class="card-img"><div class="card-info"><div class="card-id">#${s.id}</div><div class="${getNameClass(s)}">${s.name}</div><div class="status-row">${statusBadge}${getAutoTags(s)}</div></div>`;
         grid.appendChild(card);
     });
@@ -240,7 +244,7 @@ function renderBonds(groups) {
         card.innerHTML = `<img src="${IMG_PATH}Seeravatar${s.id}.png" class="card-img" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MCIgaGVpZ2h0PSI3MCI+PHJlY3Qgd2lkdGg9IjcwIiBoZWlnaHQ9IjcwIiBmaWxsPSIjMWUxZTFlIi8+PC9zdmc+ '"><div class="card-info"><div class="card-id">#${s.id}</div><div class="${getNameClass(s)}">${s.name}</div><div class="status-row">${getAutoTags(s)}</div></div>`;
         grid.appendChild(card);
     });
-    display.appendChild(grid); 
+    display.appendChild(grid);
     bondBrowser.appendChild(nav);
     bondBrowser.appendChild(display);
     contentEl.appendChild(bondBrowser);
@@ -251,9 +255,9 @@ function update() {
     contentEl.innerHTML = "";
     const cat = categories[activeTabIdx];
     const search = searchEl.value.toLowerCase();
-    
-    if (cat.id === "home") { 
-        renderHome(); 
+
+    if (cat.id === "home") {
+        renderHome();
     } else if (cat.id === "oracle") {
         const filtered = (fullDatabase.oracle || []).filter(s => s.name.includes(search) || s.id.includes(search) || (s.nickname && s.nickname.includes(search)));
         renderStandardList(filtered, 'oracle');
