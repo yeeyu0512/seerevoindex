@@ -265,9 +265,18 @@
             "id": "3407",
             "name": "格勞恩斯",
             "nickname": "火電",
-            "status": "下期預告",
+            "status": "進行中",
             "newSkill": "<a href='https://wiki.biligame.com/seer/格劳恩斯' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
-            "deadline": "2026-05-29 12:00:00",
+            "deadline": "2026-07-03 09:59:59",
+            "acquisition": "傳統挑戰關卡"
+        },
+        {
+            "id": "4004",
+            "name": "聖光格勞瑞",
+            "nickname": "聖逼",
+            "status": "下期預告",
+            "newSkill": "<a href='https://wiki.biligame.com/seer/圣光格劳瑞' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
+            "deadline": "2026-07-24 12:00:00",
             "acquisition": "傳統挑戰關卡"
         },
         {
@@ -298,7 +307,7 @@
             "id": "3516",
             "name": "混沌地王萊茵哈特",
             "nickname": "混地",
-            "status": "已結束 尚未常駐",
+            "status": "已常駐",
             "newSkill": "<a href='https://wiki.biligame.com/seer/混沌地王莱因哈特' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
             "acquisition": "傳統挑戰關卡"
         },
@@ -354,9 +363,8 @@
             "id": "3711",
             "name": "聖光莫妮卡",
             "nickname": "聖莫",
-            "status": "進行中",
+            "status": "已結束 尚未常駐",
             "newSkill": "<a href='https://wiki.biligame.com/seer/圣光莫妮卡' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
-            "deadline": "2026-04-30 09:59:00",
             "acquisition": "傳統挑戰關卡"
         },
         {
@@ -403,7 +411,7 @@
             "id": "3886",
             "name": "冰魄．柯爾德",
             "nickname": "冰王、冰哥",
-            "status": "已結束 尚未常駐",
+            "status": "已常駐",
             "newSkill": "<a href='https://wiki.biligame.com/seer/冰魄·柯尔德' target='_blank' style='color:var(--cyan);'>[圖鑑]</a>",
             "acquisition": "傳統挑戰關卡"
         },
